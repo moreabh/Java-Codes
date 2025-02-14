@@ -1,0 +1,44 @@
+import java.util.Scanner;
+class LeastReapeting 
+{
+public static void main(String []args)
+{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER A NUMBER : ");
+		int num = sc.nextInt();
+		
+		int temp = num;
+		int minfreq = 9;
+		int least_occ_digit = 0 ;
+													
+		while(temp>0)							
+			{
+				int numcpy = num;
+				int cnt = 0;
+				int currentDigit = temp%10;
+				
+				while (numcpy>0)				
+					{
+						if(numcpy%10 == currentDigit)
+						{
+							cnt++;
+						}
+						
+						numcpy/=10;
+					
+					}
+				
+				if(cnt<minfreq)
+					{
+						minfreq =cnt;
+						least_occ_digit = currentDigit;
+					}
+				
+
+				temp/=10;
+			}
+
+			System.out.println("Least Occuring digit : "+least_occ_digit+" , Occured : "+minfreq);
+
+	}
+}

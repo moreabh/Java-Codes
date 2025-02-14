@@ -1,10 +1,10 @@
 import java.util.*;
-class LoanEmI
+class LoanEmIMonthWise
 {
 	public static void main(String[]args)
 	{
-		Scanner sc= new Scanner(System.in);
-		System.out.println("          LOAN CALCULATOR          ");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("         ss LOAN CALCULATOR          ");
 		
 		System.out.println("Enter Your Amount: ");
 		int amount = sc.nextInt();
@@ -17,7 +17,7 @@ class LoanEmI
 
 		System.out.println("Enter months you return back the money: ");
 		float month = sc.nextFloat();
-		float finalRoi = month*RateOfInterestPerMonth/100;
+		float finalRoi = month*RateOfInterestPerMonth;
 		System.out.println("Final Rate Of Interest "+finalRoi);
 
 		System.out.print("Your Final Amount with rate of Interest added: ");
@@ -28,6 +28,7 @@ class LoanEmI
 		System.out.print("EMI per month: ");
 		float EmI =finalAmount/month;
 		System.out.println(EmI);
+		//System.out.println("check");
 		//float year  = month/12f;
 		//System.out.println(year);
 
