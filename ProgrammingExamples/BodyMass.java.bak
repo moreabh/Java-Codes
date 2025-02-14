@@ -1,0 +1,22 @@
+import java.util.*;
+class BodyMass
+{
+ public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		final double pound=0.45359237;
+		final double inch=0.0254;
+		System.out.println("Enter Weight In pounds:-");
+		double weight=sc.nextDouble();
+		double kg= weight * pound;
+		System.out.println("Enter height in Inch:-");
+		double height=sc.nextDouble();
+		double meter=height*inch;
+		double bmi=kg/(meter*meter);
+		System.out.println("BMI is "+(float)bmi);
+
+
+}
+
+
+}

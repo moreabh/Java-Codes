@@ -1,0 +1,32 @@
+import java.util.*;
+class SumOfDigitInForLoop
+{
+	public static void main(String[]args)
+	{
+		System.out.println("Enter a number: ");
+		int num = new Scanner(System.in).nextInt();
+		int dup=num;
+		int sum=0;
+		while(num>0)
+		{
+			int rem =num%10;
+			sum = sum+rem;
+			num = num/10;
+		}
+		System.out.println(sum);
+		System.out.println(dup);
+
+		while (dup>0)
+			{
+			
+			int rem = dup%10;
+				if (rem%2==0)
+				{
+					System.out.print("  "+rem);
+				}
+				dup =dup / 10;
+			}
+		}
+
+	}
+

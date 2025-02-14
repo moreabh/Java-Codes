@@ -1,0 +1,15 @@
+class yearDays
+{
+	public static void main(String []args)
+	{
+	long min=10000000001l;
+	long minYear=365*24*60l;//per year min
+	long year =min/minYear;//year from min 190
+	//System.out.println(+minYear+ " "+year);
+	long days = (min%minYear)/(24*60);
+	System.out.println(min);
+	System.out.println(+year+ "years " +days+"days");
+	}
+}
+
+ 

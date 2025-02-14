@@ -1,0 +1,14 @@
+class NarrowingShort
+{
+	public static void main( String[]args)
+	{
+		short e=(short)345;
+		System.out.println(e);
+		byte f=(byte)e;
+		System.out.println(f);
+		char g=(char)e;
+		System.out.println(g);
+
+	}
+
+}

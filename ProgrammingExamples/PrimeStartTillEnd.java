@@ -1,0 +1,35 @@
+import java.util.*;
+class PrimeStartTillEnd
+{
+	public static void main(String[]args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Starting Point: ");
+		int start = sc.nextInt();
+		System.out.println("Enter the ending point:-");
+		int end = sc.nextInt();
+		
+		System.out.println("prime no. between "+start+"to"+end+":");
+		for (int i=start;i<=end ;i++ )
+		{
+			int den=2;
+		
+			//System.out.println(dup);
+		
+		
+		while (den<end)
+		{
+		
+		if (i%den==0)
+		{
+			break;
+		}
+		den++;
+		}
+		if (i==den)
+		{
+			System.out.println(i);
+		}
+		}
+	}
+}
