@@ -14,7 +14,7 @@ class Traingle
 			System.out.println();
 		}
 	}
-}
+  
 /*            (i)    (j)
 *           1 row 1 column
 * *         2 row 2 column
