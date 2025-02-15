@@ -14,7 +14,7 @@ class RectanglePattern
 			}
 			
 		}
-		System.out.println();
+		System.out.println(" "+" ");
 	}
 }
 
