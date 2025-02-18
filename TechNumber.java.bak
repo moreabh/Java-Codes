@@ -1,0 +1,43 @@
+class TechNumber
+{
+	public static void main(String[]args)
+	{
+		for (int num=1;num<=5000;num++ )
+		{
+		int length = 0;
+		int div = 1;
+		for (int i = num;i>0 ;i/=10 )
+		{
+			length++;
+		}
+		if (length%2==0)
+		{
+			for (int i= 1;i<=(length/2) ;i++ )
+			{
+				div*=10;
+			}
+
+			int fh = num/div;
+			int lh = num%div;
+			int sum = fh + lh;
+			int sqr = sum*sum;
+					
+			//	System.out.println(sqr==num ? num+" is TECH number": "" );
+					if (sqr==num)
+		{
+			System.out.println(num+" is TECH number");
+		}
+		}
+		
+		/*else 
+			{
+			System.out.println(num+" is not a tech number");
+				
+			}*/
+		}
+		//int num = 2025; 
+		
+
+	}
+			
+}
