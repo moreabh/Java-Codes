@@ -9,7 +9,7 @@ class Traingle3
 			{
 				if (j<i)
 				{
-					System.out.println(" "+" ");
+					System.out.print(" "+" ");
 			}
 			else {
 				System.out.println("*"+" ");

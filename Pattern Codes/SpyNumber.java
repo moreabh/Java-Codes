@@ -1,0 +1,30 @@
+//Spy number 
+import java.util.*;
+class SpyNumber
+{
+	public static void main(String[]args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int num = sc.nextInt();
+
+		int sum = 0;
+		int product = 1;
+		int dup = num;
+
+		for (int i=num;i>0;i/=10 )
+		{
+			int rem = i%10;
+			sum = sum +rem;
+			//System.out.println(sum+ " sum");
+		}
+		while (num>0)
+		{
+			int rem = num%10;
+			product = product*rem;
+			num = num/10;
+			//System.out.println(product+ " product");
+		}
+		System.out.println(sum==product? dup+" is a Spy number":dup+"is not a Spy Number ");
+	}
+}
