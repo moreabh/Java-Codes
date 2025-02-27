@@ -1,6 +1,6 @@
 //Convert Number to Binary
 import java.util.*;
-class ConvertBinarytoNumber
+class ConvertNumbertoBinary
 {
 	public static void main(String[]args)
 	{
@@ -11,7 +11,7 @@ class ConvertBinarytoNumber
 
 		for (int i=num;i>0 ;i/=2 )
 		{
-			bin = (i%2)bin;
+			bin = (i%2)+bin;
 		}
 		System.out.println(num+":"+bin);
 	}

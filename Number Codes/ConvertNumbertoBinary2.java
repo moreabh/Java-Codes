@@ -1,6 +1,6 @@
 //logic 2 : Convert Binary To number 
 import java.util.*;
-class ConvertBinarytoNumber2
+class ConvertNumbertoBinary2
 {
 	public static void main(String[]args)
 	{
@@ -8,7 +8,7 @@ class ConvertBinarytoNumber2
 		System.out.println("Enter a number : ");
 		int num = sc.nextInt();
 		String bin = Integer.toBinaryString(num);
-		System.out.println(bin);
+		System.out.println(num+":" +bin);
 
 	}
 }

@@ -1,0 +1,18 @@
+class Method4
+{
+	public static void main(String[]args)
+	{
+		int a = 10;
+		System.out.println("a: "+a);
+		
+		test();
+	}
+
+	public static void test()
+	{
+		String a ="ADAS";
+		System.out.println("a: "+a);
+		System.out.println();
+		System.out.println("both methods have Same Variable name but both are in diffrent method block");
+	}
+}

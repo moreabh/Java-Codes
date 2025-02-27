@@ -1,0 +1,19 @@
+class Method3
+{
+	public static void main(String[]args)
+	{
+		int a = 10;
+		System.out.println("a"+a);
+
+		test();
+	}
+
+	public static void test()
+	{
+		System.out.println(a);//CTE
+		/*variable declared inside the main method 
+		so it becomes local to the main method thats
+		why we cannot access the local variable into 
+		another method IT GIVES CTE*/
+	}
+}
