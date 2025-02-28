@@ -1,0 +1,15 @@
+//logic 2 : Convert Binary To number 
+import java.util.*;
+class ConvertNumbertoBinary2
+{
+	public static void main(String[]args)
+	{
+		System.out.println("Execution starts");
+		if (false)
+		{
+			System.out.println("if execute");
+
+		}
+		System.out.println("Execution Ends");
+	}
+}
