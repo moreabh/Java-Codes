@@ -1,0 +1,15 @@
+//Check EvenOdd without any loop
+class CheckEvenOddMethod
+{
+	public static void main(String[]args)
+	{
+		int num= 14;
+		 
+		 if ((num/2)*2==num)
+		 {
+			 System.out.println(num+" Even number");
+			 return ;
+		 }
+		 System.out.println(num+" Odd Number");
+	}
+}
