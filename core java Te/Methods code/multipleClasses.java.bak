@@ -1,0 +1,30 @@
+//Multiple Classes:
+class A
+{
+	public static void main(String[]args)
+	{
+		System.out.println("Class A");
+	}
+}
+
+class B
+{
+	public static void main(String[]args)
+	{
+		System.out.println("Class B");
+	}
+}
+
+class C
+{
+	public static void main(String[]args)
+	{
+		System.out.println("Class C");
+	}
+}
+/*
+D:\java\Java-Codes\core java Te\Methods code>javac multipleClasses.java
+
+D:\java\Java-Codes\core java Te\Methods code>java A
+Class A
+*/
