@@ -1,0 +1,28 @@
+class AirConditionerDriver
+{
+	public static void main(String[]args)
+	{
+		AirConditioner ac = new AirConditioner();
+		ac.brand = "HITACHI";
+		ac.price = 10000.40;
+		ac.weight = 15 ;
+		ac.maxTemp = 24.5;
+		ac.minTemp = -1.5;
+		ac.avgTemp = 20.5;
+		
+		ac.displayInfo();
+		ac.displayMaxTemp();
+		ac.displayMinTemp();
+		ac.avgTemp();
+		
+	}
+}
+/*
+Brand: HITACHI
+Price: 10000.4
+Weight: 15.0 kg
+Max Temperature: 24.5
+Min Temprature: -1.5
+Avrage Temperatur: 20.5
+
+*/

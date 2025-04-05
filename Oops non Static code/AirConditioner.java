@@ -1,0 +1,38 @@
+//BluePrint Of Air Conditioner
+class AirConditioner
+{
+	String brand;
+	double price;
+	double weight;
+	double maxTemp;
+	double minTemp;
+	double avgTemp;
+
+	public void displayMaxTemp()
+	{
+		System.out.println("Max Temperature: "+maxTemp);
+	}
+	public void displayMinTemp()
+	{
+		System.out.println("Min Temprature: "+minTemp);
+	}
+	public void avgTemp()
+	{
+		System.out.println("Avrage Temperatur: "+avgTemp);
+	}
+	public void displayInfo()
+	{
+		System.out.println("Brand: "+brand);
+		System.out.println("Price: "+price);
+		System.out.println("Weight: "+weight+" kg");
+	}
+}
+
+/*
+Max Temperature: 0.0
+Min Temprature: 0.0
+Avrage Temperatur: 0.0
+Brand: null
+Price: 0.0
+Weight: 0.0
+*/
