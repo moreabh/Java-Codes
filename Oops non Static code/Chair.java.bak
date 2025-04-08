@@ -8,7 +8,7 @@ class Chair
 	{
 		System.out.println("Type: "+type);
 		System.out.println("Price: "+price);
-		System.out.println("weight: "+weigth);
+		System.out.println("weight: "+weight);
 	}
 
 }

@@ -1,3 +1,4 @@
+//BluePrint  Of Chair 
 class Chair
 {
 	String type;

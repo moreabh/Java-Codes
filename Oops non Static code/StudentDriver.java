@@ -1,0 +1,25 @@
+//Student Driver 
+class StudentDriver
+{
+	public static void main(String[]args)
+	{
+		Student s1 = new Student();
+		s1.roll_No = 26;
+		s1.collage = "DOT";
+		s1.age = 21;
+		s1.degree = "B-tech";
+		
+		s1.displayStudent();
+	}
+}
+/*
+No Argument Constructor
+Student@15db9742
+.................
+Name1: Mighty Raju
+Name2: null
+Age: 21
+Collage Name: DOT
+Degree: B-tech
+Roll NO: 26
+*/

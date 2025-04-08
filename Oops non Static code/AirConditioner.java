@@ -28,11 +28,3 @@ class AirConditioner
 	}
 }
 
-/*
-Max Temperature: 0.0
-Min Temprature: 0.0
-Avrage Temperatur: 0.0
-Brand: null
-Price: 0.0
-Weight: 0.0
-*/

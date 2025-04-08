@@ -1,3 +1,4 @@
+//Procedure to create object :-
 class ChairDriver
 {
 	public static void main(String[]args)
@@ -23,7 +24,15 @@ class ChairDriver
 	}
 }
 
-/*String type;
-	double price;
-	double weight;
+/*
+ 
+Chair@15db9742
+Type: Wooden
+Price: 550.5
+weight: 10.5
+
+Chair@6d06d69c
+Type: Iorn
+Price: 1000.5
+weight: 30.5
 */

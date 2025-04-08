@@ -24,7 +24,7 @@ class AirConditioner
 	{
 		System.out.println("Brand: "+brand);
 		System.out.println("Price: "+price);
-		System.out.println("Weight: "+weight+"kg");
+		System.out.println("Weight: "+weight+" kg");
 	}
 }
 

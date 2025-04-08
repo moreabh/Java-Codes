@@ -1,0 +1,30 @@
+//collage_Student Driver File
+class Collage_Student_Driver
+{
+	public static void main(String[]args)
+	{
+		Collage_Student s1 = new Collage_Student("Raju",21,"FC","BE",345);
+		s1.displayStudent();
+
+		Collage_Student s2 = new Collage_Student();
+
+		Collage_Student s3 = new Collage_Student("Mahesh",22,"JSPM","BCA",546);
+		s3.displayStudent();
+
+		
+	}
+}
+/*
+Raju
+21
+FC
+BE
+345
+From No Argument Constructor
+Collage_Student@15db9742
+Mahesh
+22
+JSPM
+BCA
+546
+*/

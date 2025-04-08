@@ -25,7 +25,8 @@ class ChairDriver
 }
 
 /*
- 
+ Here to object get created with its reference value and the non-static initializers get loaded in that object.
+
 Chair@15db9742
 Type: Wooden
 Price: 550.5

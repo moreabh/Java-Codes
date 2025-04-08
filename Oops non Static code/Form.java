@@ -1,0 +1,57 @@
+//Constructor Overloading 
+//bluePrint
+class Form
+{
+	String name;
+	long phno;
+	long tel;
+	char gen;
+	String blood;
+	String email;
+	String dob;
+
+	//Default Constructor
+	Form(){}
+
+	Form(String name, long phno, char gen, String dob)
+	{
+		this.name = name;
+		this.phno = phno;
+		this.gen = gen;
+		this.dob = dob;
+	}
+
+	Form(String name, long phno, char gen, String dob, long tel)
+	{
+		this.name = name;
+		this.phno = phno;
+		this.gen = gen;
+		this.dob = dob;
+
+		this.tel = tel;
+	}
+
+	Form(String name, long phno, char gen, String dob, long tel, String blood, String email)
+	{
+		this.name = name;
+		this.phno = phno;
+		this.gen = gen;
+		this.dob = dob;
+
+		this.tel = tel;
+		this.blood = blood;
+		this.email = email;
+	}
+
+	public void displayForms()
+	{
+		System.out.println("Name: "+name);
+		System.out.println("Phone No: "+phno);
+		System.out.println("Gender: "+gen);
+		System.out.println("Date Of Birth: "+dob);
+		System.out.println("Telephone: "+tel);
+		System.out.println("Blood: "+blood);
+		System.out.println("E-mail: "+email);
+		System.out.println("...........................");
+	}
+}
